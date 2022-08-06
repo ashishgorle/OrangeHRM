@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-06T18:54:44 IST" name="Suite" finished-at="2022-08-06T18:55:10 IST" duration-ms="25631">
+    <groups>
+    </groups>
+    <test started-at="2022-08-06T18:54:44 IST" name="Test" finished-at="2022-08-06T18:55:10 IST" duration-ms="25631">
+      <class name="com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality@1613674b]" started-at="2022-08-06T18:54:44 IST" name="setup" finished-at="2022-08-06T18:55:09 IST" duration-ms="25257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginFunctionality()[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality@1613674b]" started-at="2022-08-06T18:55:09 IST" name="VerifyLoginFunctionality" finished-at="2022-08-06T18:55:09 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionality -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality@1613674b]" started-at="2022-08-06T18:55:09 IST" name="AM" finished-at="2022-08-06T18:55:10 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+      </class> <!-- com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality -->
+      <class name="com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality@57d7f8ca]" started-at="2022-08-06T18:54:44 IST" name="setup" finished-at="2022-08-06T18:55:06 IST" duration-ms="21721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogoutFunctionality()[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality@57d7f8ca]" started-at="2022-08-06T18:55:06 IST" name="VerifyLogoutFunctionality" finished-at="2022-08-06T18:55:08 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogoutFunctionality -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality@57d7f8ca]" started-at="2022-08-06T18:55:08 IST" name="AM" finished-at="2022-08-06T18:55:08 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+      </class> <!-- com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

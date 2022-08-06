@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="brawserName" value="chrome"/>
+    <classes>
+      <class name="com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality">
+        <methods>
+          <include name="AM"/>
+          <include name="setup"/>
+          <include name="VerifyLogoutFunctionality"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.TestClassPOM.TC__002VerifyLogoutFunctionality -->
+      <class name="com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality">
+        <methods>
+          <include name="VerifyLoginFunctionality"/>
+          <include name="AM"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.TestClassPOM.TC__001VerfyLoginFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
